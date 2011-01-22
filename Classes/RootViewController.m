@@ -33,7 +33,6 @@
     [super dealloc];
 }
 
-
 #pragma mark -
 #pragma mark UITableView Delegates/DataSources
 
@@ -57,11 +56,11 @@
 	UITableViewCell *cell = nil;
 	
 	if (indexPath.section == TWO_BY_TWO_CELL) {
-		cell = [ViewCellFactory cellWithFloorSpace:@"1000"
-										   stories:@"2"
-										 bathrooms:@"2" 
-										  bedrooms:@"2" 
-										 tableView:localTableView];
+		cell = [ViewCellFactory imageCellWithFollowing:@"18"
+												tweets:@"204"
+											 followers:@"215,812" 
+											 favorites:@"0" 
+											 tableView:localTableView];
 	}
 		
 	return cell;

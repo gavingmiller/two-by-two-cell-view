@@ -13,10 +13,9 @@
 
 }
 
-+ (UITableViewCell *)cellWithFloorSpace:(NSString *)floorSpace 
-								stories:(NSString *)stories 
-							  bathrooms:(NSString *)bathrooms 
-							   bedrooms:(NSString *)bedrooms 
-							  tableView:(UITableView *)tableView;
-
++ (UITableViewCell *)imageCellWithFollowing:(NSString *)following 
+									 tweets:(NSString *)tweets
+								  followers:(NSString *)followers 						
+								  favorites:(NSString *)favorites 
+								  tableView:(UITableView *)tableView;
 @end

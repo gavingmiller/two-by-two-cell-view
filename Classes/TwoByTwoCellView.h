@@ -3,7 +3,7 @@
 //  TwoByTwoViewCell
 //
 //  Created by Gavin Miller on 10-12-02.
-//  Copyright 2010 RT Labs. All rights reserved.
+//  Copyright 2010 RANDOMTYPE. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

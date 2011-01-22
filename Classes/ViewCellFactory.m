@@ -3,19 +3,20 @@
 //  TwoByTwoViewCell
 //
 //  Created by Gavin Miller on 10-12-05.
-//  Copyright 2010 RT Labs. All rights reserved.
+//  Copyright 2010 RANDOMTYPE. All rights reserved.
 //
 
 #import "ViewCellFactory.h"
 #import "TwoByTwoCellView.h"
+#import "TwoByTwoButtonCellView.h"
 
 @implementation ViewCellFactory
 
-+ (UITableViewCell *)cellWithFloorSpace:(NSString *)floorSpace 
-								stories:(NSString *)stories 
-							  bathrooms:(NSString *)bathrooms 
-							   bedrooms:(NSString *)bedrooms
-							  tableView:(UITableView *)tableView {
++ (UITableViewCell *)imageCellWithFollowing:(NSString *)following 
+									 tweets:(NSString *)tweets
+								  followers:(NSString *)followers 						
+								  favorites:(NSString *)favorites 
+								  tableView:(UITableView *)tableView {
 	
 	static NSString *TwoByTwoCellIdentifier = @"TwoByTwoCell";
 
@@ -29,12 +30,12 @@
 				autorelease];
 	}
 	
-	cell.topLeftValue.text = floorSpace;
-	cell.topRightValue.text = stories;
-	cell.bottomLeftValue.text = bathrooms;
-	cell.bottomRightValue.text = bedrooms;
+	cell.topLeftValue.text     = following;
+	cell.topRightValue.text    = tweets;
+	cell.bottomLeftValue.text  = followers;
+	cell.bottomRightValue.text = favorites;
 	
 	return cell;
-}	
+}
 
 @end

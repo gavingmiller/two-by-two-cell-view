@@ -3,7 +3,7 @@
 //  TwoByTwoViewCell
 //
 //  Created by Gavin Miller on 10-12-02.
-//  Copyright 2010 RT Labs. All rights reserved.
+//  Copyright 2010 RANDOMTYPE. All rights reserved.
 //
 
 #import "TwoByTwoCellView.h"
@@ -24,6 +24,7 @@
 	if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
 		UIView *containerView = [[UIView alloc] initWithFrame:CGRectMake(10, 10, 300, 180)];
 		containerView.backgroundColor = [UIColor clearColor];
+		
 		
 		// Top Left
 		[containerView addSubview:
@@ -62,9 +63,9 @@
 		
 		self.backgroundColor = [UIColor clearColor];
 		
-		// Create the 4x4 pattern
+		// Create the 2x2 pattern
 		UIImageView *imageView = [[[UIImageView alloc] init] autorelease];
-		imageView.image = [UIImage imageNamed:@"2x2-background@2x.png"];
+		imageView.image = [UIImage imageNamed:@"2x2-background.png"];
 		imageView.layer.cornerRadius = 15.0;
 		imageView.layer.masksToBounds = YES;
 		imageView.layer.borderColor = [UIColor lightGrayColor].CGColor;
@@ -99,12 +100,17 @@
 }
 
 - (void)dealloc {
-    [super dealloc];
+	[self.topLeftValue release];
+	[self.topRightValue release];
+	[self.bottomLeftValue release];
+	[self.bottomRightValue release];
 	
-	[topLeftValue release];
-	[topRightValue release];
-	[bottomLeftValue release];
-	[bottomRightValue release];
+	self.topLeftValue = nil;
+	self.topRightValue = nil;
+	self.bottomLeftValue = nil;
+	self.bottomRightValue = nil;
+	
+	[super dealloc];
 }
 
 
