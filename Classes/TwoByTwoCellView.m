@@ -8,6 +8,7 @@
 
 #import "TwoByTwoCellView.h"
 
+// Private method declaration
 @interface TwoByTwoCellView()
 
 - (UILabel *)valueLabelWithFrame:(CGRect)frame;
@@ -19,43 +20,42 @@
 @implementation TwoByTwoCellView
 
 @synthesize topLeftValue, topRightValue, bottomLeftValue, bottomRightValue;
-@synthesize topLeftLabel, topRightLabel, bottomLeftLabel, bottomRightLabel;
+@synthesize topLeftTitle, topRightTitle, bottomLeftTitle, bottomRightTitle;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
 	if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
 		UIView *containerView = [[UIView alloc] initWithFrame:CGRectMake(10, 10, 300, 180)];
-		containerView.backgroundColor = [UIColor clearColor];
 		
-		
+
 		// Top Left
-		self.topLeftLabel = [self titleLabelWithFrame:CGRectMake(0, 50, 150, 20) 
+		self.topLeftTitle = [self titleLabelWithFrame:CGRectMake(0, 50, 150, 20) 
 													text:@"following"];
 		self.topLeftValue = [self valueLabelWithFrame:CGRectMake(0, 0, 150, 50)];
-		[containerView addSubview:topLeftLabel];
+		[containerView addSubview:topLeftTitle];
 		[containerView addSubview:topLeftValue];
 						
 		
 		// Top Right
-		self.topRightLabel = [self titleLabelWithFrame:CGRectMake(150, 50, 150, 20) 
+		self.topRightTitle = [self titleLabelWithFrame:CGRectMake(150, 50, 150, 20) 
 													 text:@"tweets"];
 		self.topRightValue = [self valueLabelWithFrame:CGRectMake(150, 0, 150, 50)];
-		[containerView addSubview:topRightLabel];
+		[containerView addSubview:topRightTitle];
 		[containerView addSubview:topRightValue];
 		
 		
 		// Bottom Left
-		self.bottomLeftLabel = [self titleLabelWithFrame:CGRectMake(0, 140, 150, 20) 
+		self.bottomLeftTitle = [self titleLabelWithFrame:CGRectMake(0, 140, 150, 20) 
 													   text:@"followers"];
 		self.bottomLeftValue = [self valueLabelWithFrame:CGRectMake(0, 90, 150, 50)];
-		[containerView addSubview:bottomLeftLabel];
+		[containerView addSubview:bottomLeftTitle];
 		[containerView addSubview:bottomLeftValue];
 		
 		
 		// Bottom Right
-		self.bottomRightLabel = [self titleLabelWithFrame:CGRectMake(150, 140, 150, 20) 
+		self.bottomRightTitle = [self titleLabelWithFrame:CGRectMake(150, 140, 150, 20) 
 														text:@"favorites"];
 		bottomRightValue = [self valueLabelWithFrame:CGRectMake(150, 90, 150, 50)];
-		[containerView addSubview:bottomRightLabel];
+		[containerView addSubview:bottomRightTitle];
 		[containerView addSubview:bottomRightValue];
 
 		
@@ -101,15 +101,17 @@
 }
 
 - (void)dealloc {
+	[self.topLeftTitle release];
 	[self.topLeftValue release];
-	[self.topRightValue release];
-	[self.bottomLeftValue release];
-	[self.bottomRightValue release];
 	
-	[self.topLeftLabel release];
-	[self.topRightLabel release];
-	[self.bottomLeftLabel release];
-	[self.bottomRightLabel release];
+	[self.topRightTitle release];
+	[self.topRightValue release];
+	
+	[self.bottomLeftTitle release];
+	[self.bottomLeftValue release];
+	
+	[self.bottomRightTitle release];
+	[self.bottomRightValue release];
 	
 	[super dealloc];
 }

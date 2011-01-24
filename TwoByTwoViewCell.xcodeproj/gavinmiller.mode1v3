@@ -275,7 +275,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
+									<integer>9</integer>
 									<integer>5</integer>
 									<integer>1</integer>
 									<integer>0</integer>
@@ -331,13 +331,11 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>0B62A1B312ED1E32005B9601</string>
+										<string>0B62A1E212ED239F005B9601</string>
 										<key>history</key>
 										<array>
 											<string>0B62A14612EB98F6005B9601</string>
 											<string>0B62A14712EB98F6005B9601</string>
-											<string>0B62A14812EB98F6005B9601</string>
-											<string>0B62A14912EB98F6005B9601</string>
 											<string>0B62A14A12EB98F6005B9601</string>
 											<string>0B62A16212EB9A55005B9601</string>
 											<string>0B62A16312EB9A55005B9601</string>
@@ -345,8 +343,10 @@
 											<string>0B62A16E12ED17B7005B9601</string>
 											<string>0B62A16F12ED17B7005B9601</string>
 											<string>0B62A17012ED17B7005B9601</string>
-											<string>0B62A1B112ED1E32005B9601</string>
-											<string>0B62A1B212ED1E32005B9601</string>
+											<string>0B62A1B512ED1FC6005B9601</string>
+											<string>0B62A1B612ED1FC6005B9601</string>
+											<string>0B62A1E012ED239F005B9601</string>
+											<string>0B62A1E112ED239F005B9601</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -644,7 +644,7 @@
 			<key>WindowToolGUID</key>
 			<string>0BBEF9D212E2750000B7C3F9</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
