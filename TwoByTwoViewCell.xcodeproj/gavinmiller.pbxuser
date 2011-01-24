@@ -164,7 +164,7 @@
 		fRef = 0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */;
 		name = "TwoByTwoCellView.m: 58";
 		rLen = 0;
-		rLoc = 1825;
+		rLoc = 2050;
 		rType = 0;
 		vrLen = 2746;
 		vrLoc = 207;
@@ -174,7 +174,7 @@
 		fRef = 0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */;
 		name = "TwoByTwoCellView.m: 40";
 		rLen = 0;
-		rLoc = 1239;
+		rLoc = 1337;
 		rType = 0;
 		vrLen = 2724;
 		vrLoc = 332;
@@ -184,7 +184,7 @@
 		fRef = 0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */;
 		name = "TwoByTwoCellView.m: 52";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1776;
 		rType = 0;
 		vrLen = 2819;
 		vrLoc = 332;
@@ -274,7 +274,7 @@
 		fRef = 0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */;
 		name = "TwoByTwoCellView.m: 24";
 		rLen = 0;
-		rLoc = 619;
+		rLoc = 689;
 		rType = 0;
 		vrLen = 2862;
 		vrLoc = 339;
@@ -308,6 +308,183 @@
 		rType = 0;
 		vrLen = 495;
 		vrLoc = 0;
+	};
+	0B62A16E12ED17B7005B9601 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BBEF9FC12E2766700B7C3F9 /* ViewCellFactory.h */;
+		name = "ViewCellFactory.h: 20";
+		rLen = 0;
+		rLoc = 489;
+		rType = 0;
+		vrLen = 495;
+		vrLoc = 0;
+	};
+	0B62A16F12ED17B7005B9601 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 3";
+		rLen = 16;
+		rLoc = 32;
+		rType = 0;
+		vrLen = 238;
+		vrLoc = 0;
+	};
+	0B62A17012ED17B7005B9601 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 55";
+		rLen = 105;
+		rLoc = 968;
+		rType = 0;
+		vrLen = 1364;
+		vrLoc = 0;
+	};
+	0B62A17112ED17B7005B9601 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BBEF9DA12E2753800B7C3F9 /* TwoByTwoCellView.h */;
+		name = "TwoByTwoCellView.h: 25";
+		rLen = 0;
+		rLoc = 915;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	0B62A17212ED17B7005B9601 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */;
+		name = "TwoByTwoCellView.m: 24";
+		rLen = 0;
+		rLoc = 689;
+		rType = 0;
+		vrLen = 2513;
+		vrLoc = 0;
+	};
+	0B62A17712ED1873005B9601 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BBEF9DA12E2753800B7C3F9 /* TwoByTwoCellView.h */;
+		name = "TwoByTwoCellView.h: 32";
+		rLen = 0;
+		rLoc = 906;
+		rType = 0;
+		vrLen = 915;
+		vrLoc = 0;
+	};
+	0B62A17812ED1873005B9601 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */;
+		name = "TwoByTwoCellView.m: 31";
+		rLen = 0;
+		rLoc = 875;
+		rType = 0;
+		vrLen = 2614;
+		vrLoc = 176;
+	};
+	0B62A17912ED1873005B9601 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */;
+		name = "TwoByTwoCellView.m: 32";
+		rLen = 0;
+		rLoc = 875;
+		rType = 0;
+		vrLen = 2539;
+		vrLoc = 0;
+	};
+	0B62A17A12ED189A005B9601 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */;
+		name = "TwoByTwoCellView.m: 31";
+		rLen = 0;
+		rLoc = 900;
+		rType = 0;
+		vrLen = 2569;
+		vrLoc = 0;
+	};
+	0B62A17D12ED18B5005B9601 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */;
+		name = "TwoByTwoCellView.m: 33";
+		rLen = 0;
+		rLoc = 969;
+		rType = 0;
+		vrLen = 2579;
+		vrLoc = 0;
+	};
+	0B62A17F12ED18CD005B9601 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Object allocated on line 40 is no longer referenced after this point and has a retain count of +1 (object leaked)";
+		fRef = 0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 79;
+		rType = 1;
+	};
+	0B62A18012ED18CD005B9601 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */;
+		name = "TwoByTwoCellView.m: 80";
+		rLen = 0;
+		rLoc = 2683;
+		rType = 0;
+		vrLen = 644;
+		vrLoc = 2262;
+	};
+	0B62A18712ED19A7005B9601 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */;
+		name = "TwoByTwoCellView.m: 80";
+		rLen = 0;
+		rLoc = 2683;
+		rType = 0;
+		vrLen = 797;
+		vrLoc = 1081;
+	};
+	0B62A1A612ED1A63005B9601 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Object with +0 retain counts returned to caller where a +1 (owning) retain count is expected";
+		fRef = 0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 88;
+		rType = 1;
+	};
+	0B62A1A712ED1A63005B9601 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */;
+		name = "TwoByTwoCellView.m: 89";
+		rLen = 0;
+		rLoc = 2993;
+		rType = 0;
+		vrLen = 701;
+		vrLoc = 2489;
+	};
+	0B62A1AE12ED1B14005B9601 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BBEF9DA12E2753800B7C3F9 /* TwoByTwoCellView.h */;
+		name = "TwoByTwoCellView.h: 32";
+		rLen = 0;
+		rLoc = 906;
+		rType = 0;
+		vrLen = 915;
+		vrLoc = 0;
+	};
+	0B62A1AF12ED1B14005B9601 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Potential leak of an object allocated on line 83 and stored into 'label'";
+		fRef = 0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 88;
+		rType = 1;
+	};
+	0B62A1B012ED1B14005B9601 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */;
+		name = "TwoByTwoCellView.m: 72";
+		rLen = 0;
+		rLoc = 2473;
+		rType = 0;
+		vrLen = 2657;
+		vrLoc = 1081;
 	};
 	0BBEF9C512E274F600B7C3F9 /* TwoByTwoViewCell */ = {
 		isa = PBXExecutable;
@@ -357,21 +534,21 @@
 	};
 	0BBEF9DA12E2753800B7C3F9 /* TwoByTwoCellView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1550, 1022}}";
-			sepNavSelRange = "{120, 0}";
-			sepNavVisRange = "{0, 587}";
+			sepNavIntBoundsRect = "{{0, 0}, {1550, 1045}}";
+			sepNavSelRange = "{906, 0}";
+			sepNavVisRange = "{0, 915}";
 		};
 	};
 	0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1550, 1430}}";
-			sepNavSelRange = "{619, 0}";
-			sepNavVisRange = "{339, 2862}";
+			sepNavIntBoundsRect = "{{0, 0}, {1550, 1547}}";
+			sepNavSelRange = "{2473, 0}";
+			sepNavVisRange = "{1081, 2657}";
 		};
 	};
 	0BBEF9FC12E2766700B7C3F9 /* ViewCellFactory.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1550, 1022}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1550, 1045}}";
 			sepNavSelRange = "{489, 0}";
 			sepNavVisRange = "{0, 495}";
 		};
@@ -502,7 +679,7 @@
 		fRef = 0BBEF9DA12E2753800B7C3F9 /* TwoByTwoCellView.h */;
 		name = "TwoByTwoCellView.h: 18";
 		rLen = 0;
-		rLoc = 360;
+		rLoc = 466;
 		rType = 0;
 		vrLen = 584;
 		vrLoc = 0;
@@ -512,7 +689,7 @@
 		fRef = 0BBEF9DB12E2753800B7C3F9 /* TwoByTwoCellView.m */;
 		name = "TwoByTwoCellView.m: 26";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 801;
 		rType = 0;
 		vrLen = 2848;
 		vrLoc = 370;
@@ -557,7 +734,7 @@
 	};
 	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1550, 1022}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1550, 1045}}";
 			sepNavSelRange = "{32, 16}";
 			sepNavVisRange = "{0, 238}";
 			sepNavWindowFrame = "{{19, 65}, {1255, 1108}}";
@@ -565,8 +742,8 @@
 	};
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1550, 1022}}";
-			sepNavSelRange = "{1152, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1550, 1045}}";
+			sepNavSelRange = "{968, 105}";
 			sepNavVisRange = "{0, 1364}";
 		};
 	};
@@ -667,6 +844,24 @@
 			0B62A16812EB9A55005B9601 /* PBXTextBookmark */ = 0B62A16812EB9A55005B9601 /* PBXTextBookmark */;
 			0B62A16912EB9A55005B9601 /* PBXTextBookmark */ = 0B62A16912EB9A55005B9601 /* PBXTextBookmark */;
 			0B62A16A12EB9A55005B9601 /* PBXTextBookmark */ = 0B62A16A12EB9A55005B9601 /* PBXTextBookmark */;
+			0B62A16E12ED17B7005B9601 /* PBXTextBookmark */ = 0B62A16E12ED17B7005B9601 /* PBXTextBookmark */;
+			0B62A16F12ED17B7005B9601 /* PBXTextBookmark */ = 0B62A16F12ED17B7005B9601 /* PBXTextBookmark */;
+			0B62A17012ED17B7005B9601 /* PBXTextBookmark */ = 0B62A17012ED17B7005B9601 /* PBXTextBookmark */;
+			0B62A17112ED17B7005B9601 /* PBXTextBookmark */ = 0B62A17112ED17B7005B9601 /* PBXTextBookmark */;
+			0B62A17212ED17B7005B9601 /* PBXTextBookmark */ = 0B62A17212ED17B7005B9601 /* PBXTextBookmark */;
+			0B62A17712ED1873005B9601 /* PBXTextBookmark */ = 0B62A17712ED1873005B9601 /* PBXTextBookmark */;
+			0B62A17812ED1873005B9601 /* PBXTextBookmark */ = 0B62A17812ED1873005B9601 /* PBXTextBookmark */;
+			0B62A17912ED1873005B9601 /* PBXTextBookmark */ = 0B62A17912ED1873005B9601 /* PBXTextBookmark */;
+			0B62A17A12ED189A005B9601 /* PBXTextBookmark */ = 0B62A17A12ED189A005B9601 /* PBXTextBookmark */;
+			0B62A17D12ED18B5005B9601 /* PBXTextBookmark */ = 0B62A17D12ED18B5005B9601 /* PBXTextBookmark */;
+			0B62A17F12ED18CD005B9601 /* XCBuildMessageTextBookmark */ = 0B62A17F12ED18CD005B9601 /* XCBuildMessageTextBookmark */;
+			0B62A18012ED18CD005B9601 /* PBXTextBookmark */ = 0B62A18012ED18CD005B9601 /* PBXTextBookmark */;
+			0B62A18712ED19A7005B9601 /* PBXTextBookmark */ = 0B62A18712ED19A7005B9601 /* PBXTextBookmark */;
+			0B62A1A612ED1A63005B9601 /* XCBuildMessageTextBookmark */ = 0B62A1A612ED1A63005B9601 /* XCBuildMessageTextBookmark */;
+			0B62A1A712ED1A63005B9601 /* PBXTextBookmark */ = 0B62A1A712ED1A63005B9601 /* PBXTextBookmark */;
+			0B62A1AE12ED1B14005B9601 /* PBXTextBookmark */ = 0B62A1AE12ED1B14005B9601 /* PBXTextBookmark */;
+			0B62A1AF12ED1B14005B9601 /* XCBuildMessageTextBookmark */ = 0B62A1AF12ED1B14005B9601 /* XCBuildMessageTextBookmark */;
+			0B62A1B012ED1B14005B9601 /* PBXTextBookmark */ = 0B62A1B012ED1B14005B9601 /* PBXTextBookmark */;
 			0BBEFA2E12E2803100B7C3F9 = 0BBEFA2E12E2803100B7C3F9 /* PBXTextBookmark */;
 			0BBEFA2F12E2803100B7C3F9 = 0BBEFA2F12E2803100B7C3F9 /* PBXTextBookmark */;
 			0BBEFA3112E2803100B7C3F9 = 0BBEFA3112E2803100B7C3F9 /* PBXTextBookmark */;

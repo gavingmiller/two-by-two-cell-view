@@ -14,11 +14,22 @@
 	UILabel *topRightValue;
 	UILabel *bottomLeftValue;
 	UILabel *bottomRightValue;
+	
+	UILabel *topLeftLabel;
+	UILabel *topRightLabel;
+	UILabel *bottomLeftLabel;
+	UILabel *bottomRightLabel;
 }
 
 @property (nonatomic, retain) UILabel *topLeftValue;
 @property (nonatomic, retain) UILabel *topRightValue;
 @property (nonatomic, retain) UILabel *bottomLeftValue;
 @property (nonatomic, retain) UILabel *bottomRightValue;
+
+@property (nonatomic, retain) UILabel *topLeftLabel;
+@property (nonatomic, retain) UILabel *topRightLabel;
+@property (nonatomic, retain) UILabel *bottomLeftLabel;
+@property (nonatomic, retain) UILabel *bottomRightLabel;
+
 
 @end
