@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -275,7 +277,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
+									<integer>8</integer>
 									<integer>5</integer>
 									<integer>1</integer>
 									<integer>0</integer>
@@ -312,14 +314,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TwoByTwoCellView.m</string>
+								<string>TwoByTwoCellView.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TwoByTwoCellView.m</string>
+										<string>TwoByTwoCellView.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>0B62A1E212ED239F005B9601</string>
+										<string>0BA7393112F25B6300735DB1</string>
 										<key>history</key>
 										<array>
 											<string>0B62A14612EB98F6005B9601</string>
@@ -345,8 +345,8 @@
 											<string>0B62A17012ED17B7005B9601</string>
 											<string>0B62A1B512ED1FC6005B9601</string>
 											<string>0B62A1B612ED1FC6005B9601</string>
-											<string>0B62A1E012ED239F005B9601</string>
-											<string>0B62A1E112ED239F005B9601</string>
+											<string>0BA7392F12F25B6300735DB1</string>
+											<string>0BA7393012F25B6300735DB1</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -404,9 +404,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>0B62A11712EB9505005B9601</string>
+				<string>0BA7393212F25B6300735DB1</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>0B62A11812EB9505005B9601</string>
+				<string>0BA7393312F25B6300735DB1</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -544,10 +544,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>0B62A12712EB95B4005B9601</string>
-		<string>0B62A12812EB95B4005B9601</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>0BBEF9D212E2750000B7C3F9</string>
 		<string>/Users/gavinmiller/GitHub/TwoByTwoViewCell/TwoByTwoViewCell.xcodeproj</string>
 	</array>
@@ -573,7 +569,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TwoByTwoCellView.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -590,8 +586,6 @@
 							<string>327pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -631,7 +625,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>0BBEF9D212E2750000B7C3F9</string>
-				<string>0B62A11912EB9505005B9601</string>
+				<string>0BA7393412F25B6300735DB1</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
