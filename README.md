@@ -4,6 +4,8 @@
 The 2x2 Grid View is a subclassed `UITableViewCell` used to create a nice grid 
 display for a `UITableView` with a table style of `UITableViewStyleGrouped`.
 
+![2x2 iPhone Grid View](http://www.yycapps.com/wp-content/uploads/2011/01/2x2-grid-view.png)
+
 You can read about the details on [calgary's awesome iPhone dev site - yycApps.com][3]
 
 History
@@ -50,4 +52,4 @@ SHOULDN'T HAPPEN.
 
 [1]: http://creativecommons.org/licenses/by/2.5/ca/
 [2]: http://rtlabs.ca/mydomains/
-[3]: 
+[3]: http://www.yycapps.com/2011/01/how-to-build-a-2x2-uitableview-grid
